@@ -2,30 +2,22 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="bg-[url('/1963.png')] bg-contain bg-no-repeat flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="hidden {/* left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit*/} lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Samstag
-          18. November 2023
-         
-        </p>
+    <section className="bg-gradient-to-b from-slate-600 to-slate-200">
+    <main className="bg-[url('/images/1963C.png')] bg-no-repeat bg-contain min-h-screen  items-center justify-between p-24">
+      <div className="z-10 max-w-5xl w-full mx-auto items-center justify-between font-mono text-sm lg:flex">
         
+  
+  
       </div>
-
-   
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-     
-   
+<div className="h-24                     flex flex-col items-center justify-center
 
 
 
-     
-      </div>
-      <h1 className='text-center text-amber-500 text-5xl'>
-      Samstag 18. November 2023 - Andy Mick und Frank     </h1>
-     
-
+">
+      <h1 className='mt-60 h- text-slate-700 text-center text-xl w-72 lg1:w-8/12'>"es sind die menschlichen Begegnungen die das Leben lebenswert gestalten"</h1>
+      <h1 className='headingA text-amber-500 font-black text-5xl lg:text-[12rem] text-center mt-36 '>Einladung</h1>
+  </div>  
     </main>
+    </section>
   )
 }
