@@ -1,4 +1,4 @@
-import shortcodes from "@/shortcodes/all";
+import shortcodes from "../../tailwind.config";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 

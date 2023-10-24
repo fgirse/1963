@@ -44,7 +44,7 @@ export default function RootLayout({
         <Providers>
       
           <Navigation />
-          <main className="">{children}</main>
+          <main className={'${bowlbySC.variabl}'}>{children}</main>
           <Footer />
         
         </Providers>
