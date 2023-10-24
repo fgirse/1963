@@ -7,7 +7,7 @@ import menu from "../../app/config/menu.json";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect } from "react";
-import Navigation from"../partials/Header";
+import Navigation from"../../app/components/Navigation";
 const Header = () => {
 
   const { navigation_button, settings } = config;
@@ -21,21 +21,20 @@ const Header = () => {
 
   return (
     <header
-      className={`header z-30 ${settings.sticky_header && "sticky top-0"}`}
+      className={`bg-slate-700 header z-30 ${settings.sticky_header && "sticky top-0"}`}
     >
-      <nav className="navbar container flex flex-row justify-between items-center">
+      <nav className="navbar flex flex-row justify-between items-center">
         {/* logo */}
-        <div className="order-0">
-          <Logo />
-        </div>
+     
         {/* navbar toggler */}
         <input id="nav-toggle" type="checkbox" className="hidden" />
     
        
         <div className="order-1 ml-auto flex flex-row-reverse items-center md:order-2 lg:ml-0">
           <ThemeSwitcher className="mr-5" />
+          <Navigation/>
         </div>
-        <Navigation/>
+        
       </nav>
     </header>
   );

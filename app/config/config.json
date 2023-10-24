@@ -5,10 +5,10 @@
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
-    "logo": "/images/1963.png",
-    "logo_mode": "/images/1963.png",
-    "logo_width": "40",
-    "logo_height": "40",
+    "logo": "/images/Logo1963.png",
+    "logo_mode": "/images/Logo1963.png",
+    "logo_width": "140",
+    "logo_height": "80",
     "logo_text": "8zense"
   },
 
