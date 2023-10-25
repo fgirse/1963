@@ -25,7 +25,7 @@ export default function Home() {
         <h2 className="text-amber-500 text-3xl font-bold">Wohin?</h2> 
         <p className='py-4  text-white font-black w-72 text-sm text-justify md:text-[1.333rem] md:w-full'>Veranstaltumgsort ist die Lichter Bar direkt am Flughafen/ Tower Bremgarten </p>
         <h2 className="text-amber-500 text-3xl font-bold">Unterkunft?</h2> 
-        <p className='py-4  text-white font-black w-72 text-sm text-justify md:text-[1.333rem] md:w-full'>Ubernachtung: Hotelzimmer stehen am Flughafen Bremgarten zur Verfügung oder aber z.B in Heitersheim Hotel "OXX".</p>
+        <p className='py-4  text-white font-black w-72 text-sm text-justify md:text-[1.333rem] md:w-full'>Ubernachtung: Hotelzimmer stehen am Flughafen Bremgarten zur Verfügung oder aber z.B in Heitersheim Hotel &ldquo;OXX&ldquo;.</p>
         <h2 className="text-amber-500 text-3xl font-bold">Anmeldung?</h2> 
         <p className='py-4  text-white font-black w-72 text-sm text-justify md:text-[1.333rem] md:w-full'>Wir würden uns zwecks der Planung über ein kurzes Feedback ob oder ob nicht sehr freuen!</p>
 
