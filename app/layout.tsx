@@ -1,9 +1,7 @@
 import type { Metadata } from 'next'
 import  '../styles/globals.css'
-import footer from"../layout/partials/Footer"
 import { Architects_Daughter, Londrina_Shadow, Bowlby_One_SC } from 'next/font/google';
 import config from "../app/config/config.json";
-
 import TwSizeIndicator from "../layout/helpers/TwSizeIndicator";
 import Footer from "../layout/partials/Footer";
 import { Providers } from"../app/providers";
