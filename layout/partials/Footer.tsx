@@ -8,6 +8,12 @@ import social from "../../app/config/social.json";
 import Link from "next/link";
 import { Phudu } from "next/font/google";
 
+
+
+
+import { markdownify } from "../../lib/utils/textConverter";
+
+
 const Footer = () => {
   const { copyright } = config.params;
 
@@ -18,7 +24,7 @@ const Footer = () => {
           <div className="mb-8 text-slate-100 text-center lg:col-3 lg:mb-0 lg:text-left">
             <AcmeLogo />
           </div>
-          <div className="mt-5 mb-8 text-slate-2200 text-center lg:col-6 ">
+          <div className="mt-5 mb-8 text-slate-200 text-center lg:col-6 ">
             <ul>
               {menu.footer.map((menu) => (
                 <li className=" inline-block" key={menu.name}>
@@ -27,8 +33,8 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div className="mb-8 lg:col-3 lg:mb-5 lg:mt-0 lg:text-right">
-            <Social source={social.main} className="social-icons text-slate-200" />
+          <div className="mb-8 text-center lg:col-3 lg:mb-0 lg:mt-0 lg:text-right">
+            <Social source={social.main} className="social-icons" />
           </div>
         </div>
       </div>

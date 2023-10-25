@@ -21,7 +21,7 @@ export default function App() {
   ];
 
   return (
-    <Navbar className="bg-slate-700" onMenuOpenChange={setIsMenuOpen}>
+    <Navbar className="bg-slate-700 h-[9vh]" onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent className="">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -38,17 +38,17 @@ export default function App() {
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
+        <NavbarItem className="px-3 uppercase font-bowlbySC text-2xl text-amber-500 hover:border-b-2 hover:border-slate-100 hover:text-slate-100 hover:scale-110">
           <Link color="foreground" href="#">
             Home
           </Link>
         </NavbarItem>
-        <NavbarItem isActive>
+        <NavbarItem className=" px-3 uppercase font-bowlbySC text-2xl text-amber-500 hover:border-b-2 hover:border-slate-100 hover:text-slate-100 hover:scale-110" isActive>
           <Link href="#" aria-current="page">
             Wohin?
           </Link>
         </NavbarItem>
-        <NavbarItem>
+        <NavbarItem className="px-3 uppercase font-bowlbySC text-2xl text-amber-500 hover:border-b-2 hover:border-slate-100 hover:text-slate-100 hover:scale-110">
           <Link color="foreground" href="#">
             Infos
           </Link>
