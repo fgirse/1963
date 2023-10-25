@@ -7,7 +7,7 @@ import config from "../app/config/config.json";
 import TwSizeIndicator from "../layout/helpers/TwSizeIndicator";
 import Footer from "../layout/partials/Footer";
 import { Providers } from"../app/providers";
-import Navigation from"../app/components/Navigation";
+import Navigation from"./components/Navigation";
 
 
 const archiDaughter = Architects_Daughter({

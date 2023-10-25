@@ -1,13 +1,12 @@
-
 "use client"
 
-import React from "react";
-import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
-import Logo from "../components/Logo1963";
+import React from "react";  
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem,  Link, Button} from "@nextui-org/react"; 
+import AcmeLogo  from'../components/AcmeLogo';
+import { NavbarMenu, NavbarMenuToggle, NavbarMenuItem } from "@nextui-org/react";
+
 
 export default function App() {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-
   const menuItems = [
     "Profile",
     "Dashboard",
@@ -22,26 +21,22 @@ export default function App() {
   ];
 
   return (
-    <Navbar
-      isBordered
-      isMenuOpen={isMenuOpen}
-      onMenuOpenChange={setIsMenuOpen}
-    >
-      <NavbarContent className="bg-red-500 sm:hidden" justify="start">
-        <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
+    <Navbar disableAnimation isBordered>
+      <NavbarContent className="sm:hidden" justify="start">
+        <NavbarMenuToggle />
       </NavbarContent>
 
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
-          <Logo />
-          <p className="font-bold text-inherit">Andi-Mick-Frank</p>
+          <AcmeLogo />
+          <p className="font-bold text-inherit">ACME</p>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarBrand>
-          <Logo />
-          <p className="font-bold text-inherit">Andi-Mick-Frank</p>
+          <AcmeLogo />
+          <p className="font-bold text-inherit">ACME</p>
         </NavbarBrand>
         <NavbarItem>
           <Link color="foreground" href="#">
@@ -49,7 +44,7 @@ export default function App() {
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link href="#" aria-current="page">
+          <Link href="#" aria-current="page" color="warning">
             Customers
           </Link>
         </NavbarItem>

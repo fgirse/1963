@@ -1,13 +1,13 @@
 "use client";
 
-import Logo from "../../app/components/Logo1963";
+import Logo from "../../app/components/Logo";
 import ThemeSwitcher from "../../app/components/ThemeSwitcher";
 import config from "../../app/config/config.json";
 import menu from "../../app/config/menu.json";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect } from "react";
-import Navigation from"../../app/components/Navigation";
+import Navigation from"../../app/components/Navigation.jsx";
 const Header = () => {
 
   const { navigation_button, settings } = config;

@@ -29,44 +29,12 @@ body {
 .container {
   background-color: rgb(42, 45, 84) ;
 }
-.link
- {
-    width: 15vw;
-    height: 3vh;
-    border-radius: 5%;
-    text-align: center;
-    border: none;
-    background: rgb(246, 158, 12);
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1;
-  }
-  
-  .link:hover {
-   transform: translateY(-10px);
-  width: 15vw;
-  height: 5vh;
-  border-radius: 5%;
-  border: none;
-  background: slateblue;
-  color: white;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1;
-  box-shadow:
- 1px 1px #53a7ea,
- 2px 2px #53a7ea,
- 3px 3px #53a7ea;
- -webkit-transform: translateX(-3px);
- transform: translateX(-3px);
-}
 
 
 .headingA {
   -webkit-text-stroke-width: 2.33px;
    -webkit-text-stroke-color: #ffffff;
-   font-family: "Bowlby One SC";
+   
    
 }
 
@@ -98,9 +66,9 @@ body {
 
 .headingE {
   -webkit-text-stroke-width: 3.99px;
-  -webkit-text-stroke-color: #595959;
+  -webkit-text-stroke-color: #eae7e7;
   font-family: "Bowlby One SC";
-  font-weight: extrabold;
+  
 }
 
 input#nav-toggle:checked + label #show-button {
