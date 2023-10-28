@@ -19,7 +19,7 @@ const Footer = () => {
 
   return (
     <footer className="text-slate-500 mt-auto">
-      <div className="container">
+      <div className="">
         <div className="row items-center py-10">
           <div className="mb-8 text-slate-100 text-center lg:col-3 lg:mb-0 lg:text-left">
             <AcmeLogo />

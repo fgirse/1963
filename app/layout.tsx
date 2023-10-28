@@ -39,12 +39,12 @@ export default function RootLayout({
 }) {
   return (
     <html>
-       <body className=" flex-col min-h-screen justify-between" >
+       <body className="" >
         <TwSizeIndicator />
         <Providers>
       
           <Navigation />
-          <main className='min-h-screenflex items-center justify-center'>{children}</main>
+          <main className=''>{children}</main>
           <Footer />
         
         </Providers>
