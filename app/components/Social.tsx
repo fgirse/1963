@@ -1,4 +1,4 @@
-import DynamicIcon from "../../layout/helpers/DynamicIcon";
+import DynamicIcon from "layout/helpers/DynamicIcon";
 
 export interface ISocial {
   name: string;
@@ -33,3 +33,4 @@ const Social = ({
 };
 
 export default Social;
+

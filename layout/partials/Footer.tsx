@@ -1,6 +1,6 @@
 "use client";
 
-import AcmeLogo  from "../../app/components/AcmeLogo";
+import AcmeLogo  from "../../app/components/NavBar/AcmeLogo";
 import Social from "../../app/components/Social";
 import config from "../../app/config/config.json";
 import menu from "../../app/config/menu.json";
@@ -18,7 +18,7 @@ const Footer = () => {
   const { copyright } = config.params;
 
   return (
-    <footer className="text-slate-50">
+    <footer className="text-slate-500 mt-auto">
       <div className="container">
         <div className="row items-center py-10">
           <div className="mb-8 text-slate-100 text-center lg:col-3 lg:mb-0 lg:text-left">
