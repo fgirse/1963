@@ -16,7 +16,7 @@ const index = () => {
       <h1 className=' py-5  text-center text-slate-200 text-6xl'>GoogleMap</h1>
 
       <div className=' flex flex-col items-center justify-center bg-slate-200 border-8 border-slate-200 shadow-2xl mb-12'>
-      <Image src="/images/map.png" alt="Karte" width="600" height="600" className="mt-10" />
+      <Image src="/images/Map.png" alt="Karte" width="600" height="600" className="mt-10" />
       </div>
       <div className="flex flex-col items-center justify-center">
         <p className="py-3 mb-5  rounded-xl text-slate-50 text-center w-11/12 p-3 bg-slate-800"><span className="text-amber-600"> Anfahrt von Süden:</span> Autobahn A5: Ausfahrt Müllheim/Neuenburg: über Zinken und Griessheim in den Gewerbepark Breisgau-Hochschwarzwald</p>
