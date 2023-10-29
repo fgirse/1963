@@ -28,7 +28,7 @@ const bowlbySC = Bowlby_One_SC({
 });
 
 export const metadata: Metadata = {
-  title: '1963',
+  title: 'Andi Frank Mick',
   description: 'LandingPage 1963',
 }
 
