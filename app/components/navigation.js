@@ -24,7 +24,7 @@ const Navbar = () => {
               
             </a>
           </div>
-          <div className="flex items-center justify-between w-full px-4">
+          <div className="bg-slate-800 flex items-center justify-between w-full px-4">
             <div>
               <button
                 // @click="navbarOpen = !navbarOpen"
@@ -33,7 +33,7 @@ const Navbar = () => {
                 id="navbarToggler"
                 className={` ${
                   open && "navbarTogglerActive"
-                } absolute bg-slate-400 right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden`}
+                } absolute bg-slate-600 right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden`}
               >
                 <span className="relative my-[6px] block h-[2px] w-[30px] bg-white"></span>
                 <span className="relative my-[6px] block h-[2px] w-[30px] bg-white"></span>
@@ -42,14 +42,14 @@ const Navbar = () => {
               <nav
                 // :className="!navbarOpen && 'hidden' "
                 id="navbarCollapse"
-                className={`absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-slite-800 py-5 px-6 shadow lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none ${
+                className={`bg-slate-800 absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-slite-800 py-5 px-6 shadow lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none ${
                   !open && "hidden"
                 } `}
               >
                 <ul className="block lg:flex">
                   <ListItem
-                    navItemStyles="text-[1.33rem] text-amber-500 hover:text-slate-200 hover:border-b-2 hover:border-slate-200 hover:scale-110 hover:translate-x-3 hover:-translate-y-1"
-                    NavLink="/#"
+                    navItemStyles="text-[1.33rem] text-red-500 hover:text-slate-200 hover:border-b-2 hover:border-slate-200 hover:scale-110 hover:translate-x-3 hover:-translate-y-1"
+                    NavLink="/"
                   >
                     Home
                   </ListItem>
@@ -104,7 +104,7 @@ const ListItem = ({ children, navItemStyles, NavLink }) => {
       <li>
         <a
           href={NavLink}
-          className={`flex py-2 text-base font-medium lg:ml-12 lg:inline-flex ${navItemStyles}`}
+          className={`flex py-2  text-2xl font-medium lg:ml-12 lg:inline-flex ${navItemStyles}`}
         >
           {children}
         </a>
