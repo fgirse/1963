@@ -38,13 +38,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-       <body className={archiDaughter.className} suppressHydrationWarning={true}>
+    <html className={`${archiDaughter.variable} ${bowlbySC.variable} font-sans`} lang="en">
+       <body suppressHydrationWarning={true}>
         <TwSizeIndicator />
         <Providers>
       
           <Navigation />
-          <main className={'${bowlbySC.variabl}'}>{children}</main>
+          <main >{children}</main>
           <Footer />
         
         </Providers>

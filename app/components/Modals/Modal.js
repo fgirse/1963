@@ -41,7 +41,7 @@ const Modal = () => {
         <button
           ref={trigger}
           onClick={() => setModalOpen(true)}
-          className={`px-6 py-3 text-xl font-medium text-white rounded-full bg-amber-500/50 hover:border-2 hover:bg-amber-500/90`}
+          className={`px-3 py-3 text-xl font-medium text-white rounded-full bg-amber-500/50 hover:border-2 hover:bg-amber-500/90`}
         >
             Googel Map
         </button>
@@ -58,13 +58,13 @@ const Modal = () => {
           >
         
       
-      <h1 className=' py-5 text-center text-amber-500 text-6xl'>GoogleMap</h1>
+      <h1 className=' py-5 text-center text-amber-500 text-4xl'>GoogleMap</h1>
       <div className=' flex-1 flex flex-col items-center justify-center bg-slate-200 border-8 border-slate-200 shadow-2xl mb-12'>
-      <Image src="/images/Map.png" alt="Karte" width="300" height="300" className="mt-10" />
+      <Image src="/images/Map.png" alt="Karte" width="170" height="170" className="mt-10" />
       </div>
       <div className=" mb-5 flex flex-col items-center justify-center">
-        <p className="py-3 px-2  mb-5  rounded-xl text-slate-50 text-center w-11/12 p-3 bg-slate-600"><span className="text-amber-600"> Anfahrt von Süden:</span> Autobahn A5: Ausfahrt Gewerbepark Breisgau/ Hartheim/ Heitersheim: über Bremgarten zum  südwestlichen Zugang des Gewerbeparkes.</p>
-        <p className=" py-3 px-2 text-slate-50 rounded-xl text-center w-11/12 bg-slate-600"><span className="text-amber-600"> Anfahrt von Norden:</span> Autobahn A5: Ausfahrt Bad Krozingen/ Breisach: über Hartheim und Bremgarten in den Gewerbepark Breisgau-Hochschwarzwald über den nördlichen ZUgang</p>
+        <p className="py-3 px-2  mb-5  rounded-xl text-slate-50 text-center w-72 p-3 text-sm md:text-bbase lg:text-xl bg-slate-600"><span className="text-amber-600"> Anfahrt von Süden:</span> Autobahn A5: Ausfahrt Gewerbepark Breisgau/ Hartheim/ Heitersheim: über Bremgarten zum  südwestlichen Zugang des Gewerbeparkes.</p>
+        <p className=" py-3 px-2 text-slate-50 rounded-xl text-center w-72 text-sm md:text-bbase lg:text-xl bg-slate-600"><span className="text-amber-600"> Anfahrt von Norden:</span> Autobahn A5: Ausfahrt Bad Krozingen/ Breisach: über Hartheim und Bremgarten in den Gewerbepark Breisgau-Hochschwarzwald über den nördlichen ZUgang</p>
       </div>
       
       
