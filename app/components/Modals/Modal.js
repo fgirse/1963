@@ -38,13 +38,18 @@ const Modal = () => {
   return (
     <>
       <div className="container mx-auto py-20">
+      <div className="p-12">
+  <div className=" -mt-28 group relative w-max">
         <button
           ref={trigger}
           onClick={() => setModalOpen(true)}
-          className={`px-3 py-3 text-xl font-medium text-white rounded-full bg-amber-500/50 hover:border-2 hover:bg-amber-500/90`}
+          className={`px-3 py-3 text-5xl  md:text-5xl font-medium text-white rounded-full bg-amber-500/50 hover:border-2 hover:bg-amber-500/90`}
         >
             Googel Map
         </button>
+        <span className="pointer-events-none absolute -top-7 left-0 w-max rounded bg-slate-500 px-2 py-1 text-sm font-medium text-gray-50 opacity-0 shadow transition-opacity group-hover:opacity-100"> click mich! </span>
+  </div>
+</div>
         <div
           className={`fixed top-0 left-0 flex h-full min-h-screen w-full items-center justify-center bg-black bg-opacity-90 px-4 py-5 ${
             modalOpen ? "block" : "hidden"
