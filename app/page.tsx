@@ -19,12 +19,12 @@ export default function Home() {
     <>
 
     <section className= 'grid-container w-full bg-slate-300 items-center bg-gradient-to-b from-slate-700 to-slate-300'>
-    <main className="bg-[url('/images/1963C.png')] bg-contain bg-no-repeat flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="bg-[url('/images/1963castlbrick.png')] bg-contain bg-no-repeat flex min-h-screen flex-col items-center justify-between p-24">
     <div className='flex flex-col'>
-    <h1 className='mt-[14vh] leading-4 text-center text-sm w-[66vw] m-auto md:mt-[38vh] md:text-2xl  lg:font-bold  text-orange-500 lg:w-11/12 lg:px-24 lg:mt-[63vh] ' >&ldquo;es sind die menschlichen Begegnungen die das Leben lebenswert gestalten &ldquo;</h1>
+    <h1 className='mt-[14vh] leading-4 text-center text-sm w-[66vw] m-auto md:mt-[38vh] md:text-2xl  lg:font-bold  text-orange-500 lg:leading-[3.3rem] lg:text-[3rem] lg:w-11/12 lg:px-24 lg:mt-[84vh] ' >&ldquo;es sind die menschlichen Begegnungen die das Leben lebenswert gestalten &ldquo;</h1>
       </div>
      
-      <h1 className='py-7 headingA text-amber-500 uppercase font-bowlbySC text-5xl md:text-8xl lg:text-[12rem] xl:text-[15rem] text-center'>Einladung</h1>
+      <h1 className='py-7 headingA text-amber-500 uppercase font-bowlbySC text-5xl md:text-9xl lg:text-[12rem] xl:text-[15rem] text-center'>Einladung</h1>
     
       <div className='flex flec-col'>
       <h2 className="mb-5 m-auto  text-slate-300 leading-6 font-black text-center w-96 text-[1.33rem] md:text-4xl md:w-[90vw] font-bowlbySC lg:w-full  lg:text-5xl" >Samstag <br/> 18. November 2023 <br className='text-center' />ab 19.00 Uhr</h2><br/>
@@ -43,10 +43,10 @@ export default function Home() {
         <div className='p-5 flex col '>
         <Image src="/images/grafikBar.png" alt='Grafik' height="120" width='180'/>
         </div> 
-        <div className="">
+        <div className="flex flex-col">
                 <Modal/>
         </div>
-        <p className="-mt-24 text-5xl headingA text-amber-500 text-center md:text-7xl font-bold md-text-5xl">Unterkunft?</p>
+        <p className=" m-auto text-5xl headingA text-amber-500 text-center md:text-7xl font-bold md-text-5xl">Unterkunft?</p>
       
         
         <p className="mt-5 p-3 text-3xl rounded-xl shadow-2xl uppercase bg-white/60  text-slate-500 font-bold w-60 ">Info <span className="text-xs">click Hotel-Synbol</span></p>
